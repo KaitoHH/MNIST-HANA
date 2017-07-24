@@ -1,0 +1,7 @@
+table.schemaName = "MNIST";
+table.columns = [
+{name = "Name"; sqlType = VARCHAR; nullable = false; length = 60;},
+{name = "intArgs"; sqlType = INTEGER;},
+{name = "doubleArgs"; sqlType = DOUBLE;},
+{name = "stringArgs"; sqlType = VARCHAR; length = 100;}
+];

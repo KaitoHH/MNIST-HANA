@@ -1,0 +1,15 @@
+import = [
+    {
+        hdbtable = "mnist.DDL::TRAIN";
+        schema = "MNIST";
+        file = "mnist.DDL:mnist_train.csv";
+        header = true;
+        useHeaderNames = true;
+    },
+    {
+    	hdbtable = "mnist.DDL::sign";
+    	schema = "MNIST";
+    	file = "mnist.DDL:sign.csv";
+    	header = false;
+    }
+];

@@ -1,0 +1,5 @@
+table.schemaName = "MNIST";
+table.columns = [
+{name = "type"; sqlType = VARCHAR; nullable = false; length = 100;},
+{name = "model"; sqlType = CLOB;}
+];
