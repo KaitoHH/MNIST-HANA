@@ -1,4 +1,5 @@
 table.schemaName = "MNIST";
+table.tableType = COLUMNSTORE;
 table.columns = [
 {name = "name"; sqlType = VARCHAR; nullable = false; length = 100;},
 {name = "value"; sqlType = DOUBLE;}
