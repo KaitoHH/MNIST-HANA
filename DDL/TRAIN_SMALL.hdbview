@@ -1,0 +1,2 @@
+schema = "MNIST";
+query = "SELECT TOP 10000  * FROM \"mnist.DDL::TRAIN\" ORDER BY RAND()";

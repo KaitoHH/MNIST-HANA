@@ -7,9 +7,23 @@ import = [
         useHeaderNames = true;
     },
     {
+        hdbtable = "mnist.DDL::TEST";
+        schema = "MNIST";
+        file = "mnist.DDL.csv:mnist_test.csv";
+        header = true;
+        useHeaderNames = true;
+    },
+    {
     	hdbtable = "mnist.DDL::SIGN";
     	schema = "MNIST";
     	file = "mnist.DDL:sign.csv";
     	header = false;
+    },
+    {
+    	hdbtable = "mnist.DDL::BPNN_PARAM";
+    	schema = "MINST";
+    	file = "mnist.DDL:bpnn_param.csv";
+    	header = false;
+    	delimEnclosing = "\"";
     }
 ];

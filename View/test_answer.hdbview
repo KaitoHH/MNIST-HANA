@@ -1,0 +1,2 @@
+schema = "MNIST";
+query = "SELECT \"id\", \"label\" FROM \"mnist.DDL::TEST\"";
