@@ -1,0 +1,4 @@
+1,MNIST,mnist.Structure::T_KNNTRAINDATA,IN
+2,MNIST,mnist.Structure::T_TESTDATA,IN
+3,MNIST,mnist.Structure::T_PARAMS,IN
+4,MNIST,mnist.DDL.knn::KNN_RESULT,OUT

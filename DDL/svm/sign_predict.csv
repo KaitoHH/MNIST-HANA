@@ -1,0 +1,4 @@
+1,MNIST,mnist.Structure::T_TESTDATA,IN
+2,MNIST,mnist.Structure::T_PARAMS,IN
+3,MNIST,mnist.DDL.svm::MODEL,IN
+4,MNIST,mnist.DDL.svm::PREDICT_RESULT,OUT

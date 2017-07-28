@@ -1,0 +1,8 @@
+table.schemaName = "MNIST"; 
+table.tableType = COLUMNSTORE; 
+table.columns = [ 
+{name = "POSITION"; sqlType = INTEGER;}, 
+{name = "SCHEMA_NAME"; sqlType = NVARCHAR; length = 256;}, 
+{name = "TYPE_NAME"; sqlType = NVARCHAR; length = 256;}, 
+{name = "PARAMETER_TYPE"; sqlType = VARCHAR; length = 7;} 
+];

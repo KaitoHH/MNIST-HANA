@@ -1,0 +1,7 @@
+table.schemaName = "MNIST";
+table.tableType = COLUMNSTORE;
+table.columns = [
+{name = "id"; sqlType = INTEGER; nullable = false;},
+{name = "label"; sqlType = INTEGER; nullable = false;},
+{name = "softmax"; sqlType = DOUBLE; nullable = false;}
+];

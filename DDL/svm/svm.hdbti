@@ -1,0 +1,20 @@
+import = [
+    {
+    	hdbtable = "mnist.DDL.svm::SIGN_TRAIN";
+    	schema = "MNIST";
+    	file = "mnist.DDL.svm:sign_train.csv";
+    	header = false;
+    },
+    {
+    	hdbtable = "mnist.DDL.svm::SVMTRAIN_PARAM";
+    	schema = "MNIST";
+    	file = "mnist.DDL.svm:svm_train_param.csv";
+    	header = false;
+    },
+    {
+    	hdbtable = "mnist.DDL.svm::SIGN_PREDICT";
+    	schema = "MNIST";
+    	file = "mnist.DDL.svm:sign_predict.csv";
+    	header = false;
+    }
+];

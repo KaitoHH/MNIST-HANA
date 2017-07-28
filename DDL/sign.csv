@@ -1,4 +1,4 @@
-1,MNIST,mnist.DDL::TRAIN,IN
+1,MNIST,mnist.Structure::T_TRAINWITHOUTID,IN
 2,MNIST,mnist.Structure::T_PARAMS,IN
 3,MNIST,mnist.DDL::RESULT,OUT
 4,MNIST,mnist.DDL::MODEL,OUT

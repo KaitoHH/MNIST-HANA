@@ -1,5 +1,4 @@
 table.schemaName = "MNIST";
-table.tableType = COLUMNSTORE;
 table.columns = [
 {name = "id"; sqlType = INTEGER; nullable = false;},
 {name = "p0"; sqlType = INTEGER; nullable = false;},
@@ -785,6 +784,5 @@ table.columns = [
 {name = "p780"; sqlType = INTEGER; nullable = false;},
 {name = "p781"; sqlType = INTEGER; nullable = false;},
 {name = "p782"; sqlType = INTEGER; nullable = false;},
-{name = "p783"; sqlType = INTEGER; nullable = false;},
-{name = "label"; sqlType = INTEGER; nullable = false;}
+{name = "p783"; sqlType = INTEGER; nullable = false;}
 ];

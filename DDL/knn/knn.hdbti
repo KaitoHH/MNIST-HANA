@@ -1,0 +1,14 @@
+import = [
+    {
+    	hdbtable = "mnist.DDL.knn::SIGN";
+    	schema = "MNIST";
+    	file = "mnist.DDL.knn:sign.csv";
+    	header = false;
+    },
+    {
+    	hdbtable = "mnist.DDL.knn::KNN_PARAM";
+    	schema = "MNIST";
+    	file = "mnist.DDL.knn:knn_param.csv";
+    	header = false;
+    }
+];

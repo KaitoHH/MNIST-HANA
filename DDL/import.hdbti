@@ -25,5 +25,11 @@ import = [
     	file = "mnist.DDL:bpnn_param.csv";
     	header = false;
     	delimEnclosing = "\"";
-    }
+    },
+    {
+    	hdbtable = "mnist.DDL::TEST_SIGN";
+    	schema = "MNIST";
+    	file = "mnist.DDL:sign_app.csv";
+    	header = false;
+    }    
 ];

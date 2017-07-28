@@ -1,0 +1,3 @@
+1,MNIST,mnist.Structure::T_TRAINWITHID,IN
+2,MNIST,mnist.Structure::T_PARAMS,IN
+3,MNIST,mnist.DDL.svm::MODEL,OUT

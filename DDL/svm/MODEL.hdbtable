@@ -1,0 +1,6 @@
+table.schemaName = "MNIST";
+table.tableType = COLUMNSTORE;
+table.columns = [
+{name = "id"; sqlType = INTEGER; nullable = false;},
+{name = "model"; sqlType = VARCHAR; length = 5000;}
+];
