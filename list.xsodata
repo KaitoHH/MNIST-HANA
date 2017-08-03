@@ -1,0 +1,4 @@
+service  { 
+	"MNIST"."mnist.DDL.knn::KNN_TEST"
+	create events (before "mnist:util.xsjslib::emptyTable");
+}

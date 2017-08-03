@@ -1,0 +1,21 @@
+PROCEDURE "MNIST"."mnist::KNN_TEST" (
+	IN data_id INTEGER,
+	OUT predict_result INTEGER
+) 
+	LANGUAGE SQLSCRIPT
+	SQL SECURITY INVOKER 
+	DEFAULT SCHEMA MNIST
+AS
+BEGIN
+/***************************** 
+	Write your procedure logic 
+ *****************************/
+
+test_data = SELECT * FROM "mnist.DDL.knn::KNN_TEST";
+train_data = SELECT * FROM "mnist.View::KNNTRAINDATA";
+params = SELECT * FROM "mnist.DDL.knn::KNN_PARAM";
+
+CALL "MNIST"."KNN" (:train_data, :test_data, :params, :table_result);
+SELECT "label" into predict_result FROM :table_result WHERE "id" = :data_id;
+
+END;

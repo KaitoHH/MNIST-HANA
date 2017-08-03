@@ -1,15 +1,8 @@
 function handleRequest() {
-	try {
-		var body = $.request.body.asString();
-		var pixelList = JSON.parse(body);
-	} catch (e) {
-		return e.toString();
-	}
-	var output = "";
-	for (var i = 0; i < pixelList.length; i++) {
-		output += pixelList[i] + " ";
-	}
-	return output;
+	var connection = $.hdb.getConnection();
+	var knn_test = connection.loadProcedure("MNIST", "mnist::KNN_TEST");
+	var result = knn_test(1);
+	return result["predict_result"];
 }
 
 (function() {

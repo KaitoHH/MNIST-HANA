@@ -18,8 +18,12 @@
   "prevent_xsrf": false,
   "rewrite_rules": [
         {
-            "source": "/api/upload",
+            "source": "/api/show",
             "target": "/getResult.xsjs"
+        },
+        {
+        	"source": "/api/list",
+        	"target": "/list.xsodata/mnist.DDL.knn::KNN_TEST"
         }
     ]
 }
