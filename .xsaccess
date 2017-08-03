@@ -8,17 +8,18 @@
    "enabled": true,
    "allowMethods": [
    "GET",
-   "POST",
-   "HEAD",
-   "OPTIONS",
-   "DELETE",
-   "PUT"
+   "POST"
    ],
    "allowOrigin": ["*"],
-   "allowHeaders":["Content-Type","authorization","accept"],
-   "exposeHeaders":["Access-Control-Allow-Origin"]
+   "allowHeaders":["Content-Type","authorization","accept"]
   },
   "enable_etags": false,
   "force_ssl": false,
-  "prevent_xsrf": false
+  "prevent_xsrf": false,
+  "rewrite_rules": [
+        {
+            "source": "/api/upload",
+            "target": "/getResult.xsjs"
+        }
+    ]
 }
