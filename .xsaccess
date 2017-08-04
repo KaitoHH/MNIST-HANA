@@ -24,6 +24,10 @@
         {
         	"source": "/api/list",
         	"target": "/list.xsodata/mnist.DDL.knn::KNN_TEST"
+        },
+        {
+        	"source": "/api/upload",
+        	"target": "/list.xsodata/mnist.DDL.knn::KNN_MAN"
         }
     ]
 }
