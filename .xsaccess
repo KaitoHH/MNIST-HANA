@@ -28,6 +28,10 @@
         {
         	"source": "/api/upload",
         	"target": "/list.xsodata/mnist.DDL.knn::KNN_MAN"
+        },
+        {
+        	"source": "/",
+        	"target": "/ruok.xsjs"
         }
     ]
 }
